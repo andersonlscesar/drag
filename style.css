@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+}
+body{
+    background: #383838;
+}
+.container{
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 1em;
+}
+.light svg{
+    width: 100px;
+    height: 100px;
+   
+}
+.light{
+    width: 100px;
+    
+    transition: all 2s ease;
+    margin-bottom: 20px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+}
+.dropzone{
+    background: #292929;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .2s ease;
+}
+
+.active{
+    background: #f4f4f4;
+}
